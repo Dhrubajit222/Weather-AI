@@ -1,0 +1,49 @@
+{
+  "name": "weather-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium Modern Weather Application with real-time data, dynamic weather backgrounds, and dark/light mode.",
+  "type": "module",
+  "author": "Dhrub",
+  "license": "MIT",
+  "homepage": "https://github.com/dhrub/weather-ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhrub/weather-ai.git"
+  },
+  "keywords": [
+    "weather",
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "openweather",
+    "pwa"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "@tanstack/react-query": "^5.101.2",
+    "axios": "^1.18.1",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.24.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}
